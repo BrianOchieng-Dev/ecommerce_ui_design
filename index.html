@@ -1,25 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Webpage</title>   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="scroll-smooth">
+<body >
    <section>
     <header>
         <div class="flex items-center justify-between p-4 md:px-6 lg:px-8 top-0 left-0 fixed z-50 w-full shadow-xl">
             <a href="#home"><h1>Mid-Tech</h1></a>
-        <nav class="sm: hidden md:flex gap-4">
+        <nav class=" flex items-center sm: hidden md:flex gap-4 lg:flex items-center">
             <a href="#about">About</a>
              <a href="#product">Products</a>
-              <a href="#product">Order Now</a>
+              <a href="#product" class="mx-4 p-2 text-white bg-blue-600 text-bold">Order Now</a>
         </nav>
     </div>
     </header>
    </section>
    <main>
-    <section id="home">
+    <section id="home" class="bg-gray-100">
     <div class="flex items-center justify-center flex-col pt-24">
         <h1 class="text-2xl text-blue-600 font-semibold leading-tight md:text-4xl lg:text-6xl">Master Your Audio Environment</h1>
         <p class="leading-normal text-gray-700 sm:text-sm md:text-base lg:text-lg">Precision-engineered accessories for the focused mind</p>
@@ -28,7 +28,7 @@
              <button class="mx-4 p-2 text-white bg-blue-600 text-bold"><a href="">Subscribe for Newsletter</a></button>
         </div>
          <div>
-        <img src="images/img13.jpg" class=""/>
+        <img src="images/img20.png" class=""/>
     </div>
     </div>
     </section>
@@ -48,12 +48,13 @@
 
     <section id="product">
         <h2 class="text-xl text-center font-bold text-blue-600 leading-tight p-2 md:text-2xl lg:text-4xl lg:p-4">Products Shop</h2>
-        <div class="grid md:grid-cols-4 gap-4 sm:grid-cols-2 md:gap-8 lg:gap-12 p-2 md:px-4 lg:px-8 lg:grid-cols-4">
+        <div class=" grid  gap-4 grid-cols-2 md:grid-cols-4 md:gap-8 lg:gap-12 p-2 md:px-4 lg:px-8 lg:grid-cols-4">
             <!--Card 1-->
                     <div class="border  border-blue-600 p-2 md:px-4 lg:px-6 text-center shadow-lg ">
-                        <img src="images/img9.jpg" />
+                        <img src="images/img10.jpg" />
                         <h3>Headset Mega 2.0</h3>
                         <h3 class="text-red-600 text-xl p-2">$129.99</h3>
+                        <h4></h4>
                         <div class="">
                         <button class="mx-2 p-2 text-white bg-blue-600 text-bold">Add to Cart</button>
                           <button class="mx-2 p-2 text-white bg-blue-600 text-bold">Buy Now</button></div>
@@ -68,7 +69,7 @@
                           <button class="mx-2 p-2 text-white bg-blue-600 text-bold">Buy Now</button></div>
                     </div>
             <!--Card 3-->                           
-                    <div  class="border  border-blue-600 p-2 md:px-4 lg:px-6 text-center shadow-lg">   
+                    <div  class="border  border-blue-600 p-2 md:p-4 lg:p-6  text-center shadow-lg">   
                         <img src="images/img12.jpg"/>
                         <h3>Audio Amplifier Pro</h3>
                         <h3 class="text-red-600 text-xl p-2">$149.99</h3>
@@ -87,7 +88,19 @@
                         </div>
                     </div>
         </div>
+
+        <div class="flex justify-center">
+        <button class="m-4 p-2 text-white bg-blue-600 text-bold"><a href="">Related Products</a></button></div>
+    </section>
+
+    <section>
+        <footer class="p-4 md:p-6 lg:p-8 text-center bg-gray-100 text-gray-700">
+            <p>© 2026 Mid-Tech. Built for Discipline. Built for Life.</p>
+            <p>Privacy Policy | Terms of Service</p>
+            </footer>
     </section>
    </main>
+
+   <script src="https://kit.fontawesome.com/f7e41c6d61.js" crossorigin="anonymous"></script>
 </body>
 </html>
